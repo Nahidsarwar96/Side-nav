@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-align: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+div,
+p,
+span,
+li,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sideNav {
+    height: 100vh;
+    width: 20%;
+    background: rgba(135, 127, 127, 0.904);
+    padding: 30px;
+    transition: all linear 0.3s;
+}
+
+.activeNav {
+    transform: translateX(-100%);
+}
+
+.navTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wholeBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navIcon {
+    padding: 30px;
+}
